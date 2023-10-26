@@ -2,8 +2,8 @@
 
 size_t list_len(const list_t *h){
    const list_t *temp;
-    int count;
-
+    size_t count;
+    count = 0;
     temp = h;
     if(temp == NULL){
         return(count);
