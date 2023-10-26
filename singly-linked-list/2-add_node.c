@@ -1,5 +1,5 @@
 #include "lists.h"
-
+//UPDATED
 list_t *add_node(list_t **head, const char *str){
     list_t *newnode;
     newnode = malloc(sizeof(list_t));
